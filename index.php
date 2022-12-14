@@ -20,4 +20,8 @@ while ($isTrue){
     }
 }
 echo print_r($ar);
-
+echo
+<<<html
+<br/>goodbye, my friend!
+html;
+?>
