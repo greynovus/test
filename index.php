@@ -1,11 +1,18 @@
 <?php
 echo 'privet <br/>';
 
+echo<<<html
+<body>
+<img src="puz.jpeg" width="500"<br/>
+</body>
+<br/>
+html;
+
 $ar = array(3,2,1,5,4);
 //echo $ar[1];
 echo "Было: <br/>";
 echo print_r($ar);
-echo "<br/>";
+echo "<br/><br/>";
 echo "Стало: <br/>";
 $isTrue = true;
 while ($isTrue){
@@ -22,6 +29,6 @@ while ($isTrue){
 echo print_r($ar);
 echo
 <<<html
-<br/>goodbye, my friend!
+<br/><br/>goodbye, my friend!
 html;
 ?>
