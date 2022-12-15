@@ -32,7 +32,7 @@ echo "Выведем итоговый массив в более удобном 
 foreach ($ar_old as $element){
     echo "[".$element."] ";
 }
-echo "<br/><br/>Сало:<br/>";
+echo "<br/><br/>Стало:<br/>";
 foreach ($ar as $element){
     echo "[".$element."] ";
 }
