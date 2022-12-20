@@ -5,7 +5,7 @@ echo<<<html
 <body>
 <img src="puz.jpeg" width="500"<br/>
 </body>
-<br/>
+<br/><br/>
 html;
 
 $ar = array(3,2,1,5,4);
@@ -15,6 +15,9 @@ echo "Было: <br/>";
 echo print_r($ar);
 echo "<br/><br/>";
 echo "Стало: <br/>";
+
+include "stepik.php";
+echo "<br/><br/>";
 $isTrue = true;
 while ($isTrue){
     $isTrue = false;
@@ -41,4 +44,6 @@ echo
 <<<html
 <br/><br/>goodbye, my friend!
 html;
+
+
 ?>
